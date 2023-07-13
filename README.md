@@ -4,6 +4,8 @@ CUFX Version 4.5 Models Class Library.
 # Contents
 -	schemas
     - CUFX-CUFX-4.5-resolved.yaml
+        - [CUFX 4.5 SwaggerHub](https://app.swaggerhub.com/apis/CUFX/CUFX/4.5#/)
+        - Export - Download API - YAML Resolved
 -	packages
     - VyStar.ApiStandards.CUFX.Models.4.5.0-beta.1.nupkg
 -	cufx-v4.5-server
