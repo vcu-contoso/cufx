@@ -58,6 +58,12 @@ CUFX Version 4.5 Models Class Library.
     ```
     docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli generate -i /local/schemas/CUFX-CUFX-4.5-resolved.yaml -g aspnetcore  -o /local/cufx-v4.5-server --additional-properties=aspnetCoreVersion=6.0,buildTarget=program,modelClassModifier=partial,nullableReferenceTypes=true,operationIsAsync=true,operationModifier=virtual,operationResultTask=true,packageName=VyStar.ApiStandards.CUFX,packageVersion=4.5.0,pocoModels=true,swashbuckleVersion=6.4.0,useFrameworkReference=true,useNewtonsoft=true,useSeparateModelProject=true,useSwashbuckle=true
     ```
+    
+    Both projects are generated in net6. 
+
+10 . Changed the models project to a netstandard2.1 class library.
+
+
 If you want to learn more about using the code generator then refer to the following:
 - [Open API Generator](https://openapi-generator.tech/)
     - [Getting Started](https://openapi-generator.tech/docs/installation)
